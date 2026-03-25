@@ -8,7 +8,7 @@ st.title("Databáze standardů")
 # ------------------------------
 # 1️⃣ Připojení k databázi
 # ------------------------------
-mdb_file = r".\dbtrial.accdb"  # uprav cestu
+mdb_file = r"dbtrial.accdb"  # uprav cestu
 conn_str = (
     r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};'
     fr'DBQ={mdb_file};'
